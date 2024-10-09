@@ -25,8 +25,6 @@
   const myGeoScale = fitScales(prov.domain('$geometry'))
 
 
-  
-
   async function loadCSV(url) {
     const response = await fetch(url);
     const data = await response.text();
